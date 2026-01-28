@@ -4,3 +4,7 @@ spring:
 
 server:
   port: 8081
+
+security:
+  jwt:
+    secret: minha-chave-jwt-super-secreta-para-bff-e-srv-2026-hexagonal
