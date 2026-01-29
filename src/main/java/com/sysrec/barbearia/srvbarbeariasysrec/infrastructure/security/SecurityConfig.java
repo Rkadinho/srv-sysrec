@@ -2,7 +2,6 @@ package com.sysrec.barbearia.srvbarbeariasysrec.infrastructure.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
@@ -26,7 +25,7 @@ public class SecurityConfig {
                         .anyRequest().authenticated()
                 )
                 .addFilterBefore(
-                        new JwtAuthentiationFilter(jwtService),
+                        new JwtAuthenticationFilter(jwtService),
                         UsernamePasswordAuthenticationFilter.class
                 );
 
