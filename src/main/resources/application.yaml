@@ -1,6 +1,21 @@
 spring:
   application:
-    name: srv-barbearia-SysRec
+    name: srv-barbearia-sysRec
+  datasource:
+    url: jdbc:postgressql://loalhost:5432/barbearia
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  flyway:
+    enabled: true
 
 server:
   port: 8081
