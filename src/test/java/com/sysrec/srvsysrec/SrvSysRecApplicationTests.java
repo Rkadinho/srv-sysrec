@@ -1,10 +1,10 @@
-package com.sysrec.barbearia.srvbarbeariasysrec;
+package com.sysrec.srvsysrec;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SrvBarbeariaSysRecApplicationTests {
+class SrvSysRecApplicationTests {
 
     @Test
     void contextLoads() {

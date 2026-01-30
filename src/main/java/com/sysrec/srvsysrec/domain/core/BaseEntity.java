@@ -1,4 +1,4 @@
-package com.sysrec.barbearia.srvbarbeariasysrec.domain.core;
+package com.sysrec.srvsysrec.domain.core;
 
 import jakarta.persistence.*;
 import java.time.OffsetDateTime;

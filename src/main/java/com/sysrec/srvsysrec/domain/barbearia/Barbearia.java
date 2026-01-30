@@ -1,6 +1,6 @@
-package com.sysrec.barbearia.srvbarbeariasysrec.domain.barbearia;
+package com.sysrec.srvsysrec.domain.barbearia;
 
-import com.sysrec.barbearia.srvbarbeariasysrec.domain.core.BaseEntity;
+import com.sysrec.srvsysrec.domain.core.BaseEntity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;

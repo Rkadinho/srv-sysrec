@@ -1,6 +1,6 @@
-package com.sysrec.barbearia.srvbarbeariasysrec.infrastructure.security;
+package com.sysrec.srvsysrec.infrastructure.security;
 
-import com.sysrec.barbearia.srvbarbeariasysrec.domain.context.TenantContext;
+import com.sysrec.srvsysrec.domain.context.TenantContext;
 import io.jsonwebtoken.Claims;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

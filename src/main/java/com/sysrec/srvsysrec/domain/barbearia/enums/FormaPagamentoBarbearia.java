@@ -1,4 +1,4 @@
-package com.sysrec.barbearia.srvbarbeariasysrec.domain.barbearia.enums;
+package com.sysrec.srvsysrec.domain.barbearia.enums;
 
 public enum FormaPagamentoBarbearia {
     PIX,

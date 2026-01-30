@@ -1,8 +1,8 @@
 spring:
   application:
-    name: srv-barbearia-sysRec
+    name: srv-sysRec
   datasource:
-    url: jdbc:postgressql://loalhost:5432/barbearia
+    url: jdbc:postgressql://loalhost:5432/sysRec
     username: postgres
     password: postgres
 

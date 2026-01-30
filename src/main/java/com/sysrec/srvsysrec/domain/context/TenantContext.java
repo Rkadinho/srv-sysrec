@@ -1,4 +1,4 @@
-package com.sysrec.barbearia.srvbarbeariasysrec.domain.context;
+package com.sysrec.srvsysrec.domain.context;
 
 public class TenantContext {
     private static final ThreadLocal<String> TENANT = new ThreadLocal<>();

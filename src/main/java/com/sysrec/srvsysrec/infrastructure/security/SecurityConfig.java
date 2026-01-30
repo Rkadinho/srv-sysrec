@@ -1,4 +1,4 @@
-package com.sysrec.barbearia.srvbarbeariasysrec.infrastructure.security;
+package com.sysrec.srvsysrec.infrastructure.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

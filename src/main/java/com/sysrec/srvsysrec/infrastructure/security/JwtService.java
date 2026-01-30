@@ -1,4 +1,4 @@
-package com.sysrec.barbearia.srvbarbeariasysrec.infrastructure.security;
+package com.sysrec.srvsysrec.infrastructure.security;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

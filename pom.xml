@@ -8,11 +8,11 @@
         <version>4.0.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.sysrec.barbearia</groupId>
-    <artifactId>srv-barbearia-SysRec</artifactId>
+    <groupId>com.sysrec</groupId>
+    <artifactId>srv-SysRec</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>srv-barbearia-SysRec</name>
-    <description>srv-barbearia-SysRec</description>
+    <name>srv-SysRec</name>
+    <description>srv-SysRec</description>
     <url/>
     <licenses>
         <license/>

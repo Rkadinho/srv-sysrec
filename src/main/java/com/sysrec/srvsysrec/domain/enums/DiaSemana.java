@@ -1,4 +1,4 @@
-package com.sysrec.barbearia.srvbarbeariasysrec.domain.enums;
+package com.sysrec.srvsysrec.domain.enums;
 
 public enum DiaSemana {
     SEGUNDA,
